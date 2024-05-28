@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Reset default styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Center the login card */
+.login-card {
+   max-width: 300px;
+   margin: 200px auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   animation: fadeIn 1s ease;
+}
+
+/* Style input groups */
+.input-group {
+   margin-bottom: 20px;
+}
+.input-group label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: #333;
+}
+.input-group input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 14px;
+   color: #333;
+}
+
+/* Style the login button */
+button[type="submit"] {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.4s ease;
+   animation: fadeIn 1s ease;
+}
+button[type="submit"]:hover {
+   background-color: #0056b3;
+}
+
+/* Style the sign-up link */
+p a {
+   color: #007bff;
+   text-decoration: none;
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+   from {
+       opacity: 0;
+   }
+   to {
+       opacity: 2;
+   }
+}

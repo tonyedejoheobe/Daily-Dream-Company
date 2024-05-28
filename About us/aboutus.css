@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+.navbar{
+   line-height: 1;
+   background-color: whitesmoke; 
+}
+.nav-link:hover{
+   border-bottom: 2px black solid;
+}
+ul{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
+.logo{
+   margin: 5px 0px;
+}
+.name{
+   font-family: "kanit";
+   
+}
+.moto{
+   color: rgb(67, 159, 196);
+   font-family: "Satisfy";
+   font-style: italic;
+}
+.container{
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+.flex{
+   display: flex;
+   justify-content: space-between;
+}
+.bga{
+   width: 100%;
+}
+.log{
+   color: blue;
+   text-align: center;
+}
+button{
+   height: 85%;
+   width: 130px;
+   animation: fadeIn 1s ease;
+}
+button:hover{
+   border: 3px solid blue;
+}
+.nav-link1:hover{
+   border-bottom: none;
+   
+}
+

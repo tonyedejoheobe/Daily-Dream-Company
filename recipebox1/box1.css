@@ -1,0 +1,276 @@
+*{
+   padding: 0.5%;
+   margin: 1%;
+}
+body{
+   width: 100%;
+   overflow-x: hidden;
+   background-color: whitesmoke;  
+}
+.info{
+   height: 250px;
+   width: 250px;
+   background-image: url(/images/cake\ 4.1.jpg);
+   background-size: cover;
+   border: solid black 3px;
+   border-radius: 49%;
+   position: absolute;
+   transition: background-position 4s;
+   left: 2%;
+   top: 3%;
+   background-position: 10%;
+}
+.info:hover{
+   transform: scale(1.08);
+   transition: ease-in-out 0.5s;
+   border: solid sandybrown 5px;
+   cursor: pointer;
+   background-image: url(/images/brown.jpg);
+   background-position: -250px;
+}
+.info:hover .in{
+   visibility: visible;
+   font-family: "lobster";
+   color: snow;
+   position: relative;
+   top: 6%;
+   
+}
+.in{
+ position: relative;
+ text-align: center;
+ visibility: hidden;
+}
+.pay{
+   position: absolute;
+   left: 50%;
+   color: rgb(250, 157, 75) ;
+   font-size: xx-large;
+   top: 5%;
+   font-family: "Vast Shadow";
+}
+.p1{
+   position: absolute;
+   left: 30%;
+   font-size: larger;
+   font-family: "Poetsen One";   
+}
+.exa1{
+   width: 950px;
+   height: 950px;
+   background: url(/images/cake\ 4.jpg);
+   padding: 5%;
+   position: absolute;
+   background-position: 15%;
+   left: 6%;
+   top: 50%;
+   background-size: cover;
+}
+.exa2{
+   width: 800px;
+   height: 800px;
+   background: url(/images/cake\ 4.2.jpg);
+   padding: 5%;
+   position: absolute;
+   background-position: 15%;
+   left: 6%;
+   top: 300%;
+   background-size: cover;
+}
+.p2{
+   position: absolute;
+   left: 5%;
+   top: 230%;
+   font-size: larger;
+   font-family: "Poetsen One";   
+}
+.p4{
+   position: absolute;
+   top: 465%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.p5{
+   position: absolute;
+   top: 475%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}  
+.why{
+   position: absolute;
+   top: 255%;
+   left: 5%;
+}
+.why2{
+   position: absolute;
+   top: 460%;
+   left: 5%;
+}
+.p3{
+   position: absolute;
+   top: 265%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa3{
+   background: url(/images/image\ 4.3.jpg);
+   background-size: cover;
+   width: 700px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 530%;
+   left: 6%;
+}
+.why3{
+   position: absolute;
+   top: 675%;
+   left: 5%;
+}
+.p6{
+   position: absolute;
+   top: 685%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.why4{
+   position: absolute;
+   top: 735%;
+   left: 5%;
+}
+.p7{
+   position: absolute;
+   top: 744%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa4{
+   background: url(/images/image\ 4.4.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 700px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 760%;
+   left: 6%;
+}
+.p8{
+   position: absolute;
+   top: 910%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa5{
+   background: url(/images/image\ 4.5.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 700px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 920%;
+   left: 6%;
+}
+.p9{
+   position: absolute;
+   top: 1065%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa6{
+   background: url(/images/image\ 4.6.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 700px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 1075%;
+   left: 6%;
+}
+.p10{
+   position: absolute;
+   top: 1220%;
+   left: 5%; 
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa7{
+   background: url(/images/image\ 4.7.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 850px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 1240%;
+   left: 6%;
+}
+.p11{
+   position: absolute;
+   top: 1385%;
+   left: 5%; 
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa8{
+   background: url(/images/image\ 4.8.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 850px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 1400%;
+   left: 6%;
+}
+.p12{
+   position: absolute;
+   top: 1540%;
+   left: 5%; 
+   font-family: "Roboto";
+   font-weight: 500;
+}
+.exa9{
+   background: url(/images/cake\ 4.1.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 850px;
+   height: 700px;
+   padding: 5%;
+   position: absolute;
+   top: 1550%;
+   left: 6%;
+}
+.why5{
+   position: absolute;
+   top: 1690%;
+   left: 5%;
+   font-size: xx-large; 
+}
+.p13{
+   position: absolute;
+   top: 1700%;
+   left: 5%;
+   font-family: "Roboto";
+   font-weight: 500;   
+}
+.video{
+   position: absolute;
+   top: 1730%;
+   left: 5%;   
+}
+.why6{
+   position: absolute;
+   top: 1715%;
+   left: 5%;
+   font-size: xx-large; 
+}
