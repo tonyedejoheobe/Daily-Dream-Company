@@ -1,4 +1,4 @@
 # Daily-Dream-Company
-This is a design template for a company called Daily Dream 
+This is a basic frontend design template for a company called Daily Dream 
 
-check it out by clicking this link(https://dailydream-be21f.web.app/)
+check it out by clicking this link(https://daily-dream.netlify.app/)
